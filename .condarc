@@ -1,7 +1,7 @@
 show_channels_urls: true
 channels:
   - conda-forge
-  - pytoch
+  - pytorch
   - defaults
 changeps1: false
 auto_activate_base: false
