@@ -1,5 +1,23 @@
-[user]
-	email = ulic.youthlic@gmail.com
-	name = ulic-youthlic
 [core]
-	editor = hx
+    editor = hx
+    pager = delta
+[filter "lfs"]
+        required = true
+[user]
+        user = Ulic.youthlic
+        email = Ulic.youthlic@gmail.com
+        name = ulic-youthlic
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true    # use n and N to move between diff sections
+
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    dark = true
+    # light = true
+    line-numbers = true
+    side-by-side = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
