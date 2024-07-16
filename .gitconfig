@@ -2,11 +2,14 @@
     editor = hx
     pager = delta
 [filter "lfs"]
-        required = true
+    required = true
 [user]
-        user = Ulic.youthlic
-        email = Ulic.youthlic@gmail.com
-        name = ulic-youthlic
+    user = youthlic
+    email = Ulic.youthlic@gmail.com
+    name = ulic-youthlic
+    signingkey = 3BAD8610
+[commit]
+    gpgsign = true
 [interactive]
     diffFilter = delta --color-only
 [delta]
