@@ -1,5 +1,10 @@
 ---
-Language:        Cpp
-BasedOnStyle:  Mozilla
+Language:              Cpp
+BasedOnStyle:          Mozilla
+IncludeBlocks:         Regroup
+IndentAccessModifiers: true
+IndentPPDirectives:    AfterHash
+IndentWidth:           4
+InsertNewlineAtEOF:    true
 ...
 
